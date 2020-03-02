@@ -1,0 +1,5 @@
+1. Các chức năng như rê vào zôm ảnh ở phần Sản phẩm trống e tìm hiểu trên gg
+2. Web sử dụng các lệnh jquery và javascript như cuộn chuột, click, hàm load nội dung(tweenmax) ở phần đàn guitar,
+hàm(setInterval) ở phần trang chủ.
+3. Ở phần Trống cta có thể dùng chức năng lọc nội dung ở mục giá.( lọc giá <10 trieeuj và 10 đến 40 triệu). 
+			E cảm ơn!!!! 

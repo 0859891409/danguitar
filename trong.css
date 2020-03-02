@@ -1,0 +1,1173 @@
+*{margin: 0;padding: 0;}
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: rgb(253, 215, 2);
+    height: 65px;
+}
+
+.logo{
+    width: 267px;
+    height: 67px;
+    padding-bottom: 5px;
+    padding-left: 92px;
+    padding-top: 5px;
+}
+.menu .navbar-nav{
+    margin-left: 200px;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+.nav-item{
+    margin-left:  50px;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+@media(max-width:570px)
+{
+    .logo{
+        width: 227px;
+        height: 67px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+    .navbar{
+        background-color:rgb(253, 215, 2);
+    }
+    .menu .nav-link{
+        background-color: rgb(253, 215, 2);
+        transition: 0.5s;
+        text-align: center;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+}
+
+.menu .nav-link:hover {
+   background: black;
+   border-radius: 5px;
+   transition: 0.2s;
+   color:  rgb(253, 215, 2)!important;
+}
+/* đóng css menu */
+.banner{
+    background-image: url(image/banner-trống.jpg);
+    width: 100%;
+    height:400px ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 65px;
+}
+i.fas.fa-star {
+    margin-left: 6px;
+    padding-left: 2px;
+    font-size: 15px;
+    color: rgb(253, 215, 2) ;
+}
+
+i.fas.fa-chevron-right {
+    font-size: 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+a.danhgia1 {
+    margin: 4px;
+}
+
+.danhgia {
+    margin-top: 10px;
+}
+.danhgia2{
+    margin-left: 490px;
+    margin-top: -22px;
+    visibility: hidden;
+    transition: 0.2s;
+    opacity: 0;
+}
+.radanhgia2{
+    opacity: 1;
+    visibility: visible;
+
+}
+/* Dòng sản phẩm */
+.chutrong {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+h2.chutrong:after {content: "";margin-left:-105px;
+    border: 5px solid rgb(253, 215, 2);right: -10;
+    left: 40px;width: 0;height: 0;left: 8px;}
+/* css cho các khối */
+p.loaitrong {
+    text-align: center;
+    padding-top: auto;
+    padding-top: 13px;
+    padding-left: 0px;
+    font-size: 17px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.khoi {
+    width: 100%;
+    height: 50px;
+    background:  black;
+    margin-top: 25px;
+    z-index: 2;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+a.loaitrong {
+    color: black;
+    font-size: 15px;
+    font-family: serif;
+    
+    
+}
+.khoi2 {
+    padding: 5px 17px;
+    border: 1px solid rgb(253, 215, 2);
+    padding-top: 10px;
+    opacity: 0;
+    transition: 0.3s;
+    background-color: whitesmoke;
+    position: relative;
+    z-index: 4;
+    margin-top: -100px;
+
+}
+.khoi:hover .khoi2{
+    opacity: 1;
+    margin-top: 0px;
+}
+ .khoi:hover{
+    background: rgb(253, 215, 2);
+}
+.khoi:hover .loaitrong{
+    color: black;
+}
+.khoi:hover .timkiem{
+    margin-top: 60px;
+}
+li{
+    list-style: none;
+}
+/* css cho phần tìm kiếm */
+.timkiem{
+    width: 100%;
+    height: 40px;
+    background-color: #afaaaa94;
+    position: relative;
+    border-radius: 2px;
+    transition: 0.3s;
+    margin-top: 40px;
+    justify-content: center;
+}
+.timtheo{
+    position: absolute;
+    z-index: 1;
+    font-size: 19px;
+    padding: 7px 10px;
+    color: black;
+    font-weight: 400;
+}
+.thuonghieu{
+    position: absolute;
+    margin: 12px 300px;
+    cursor: pointer;
+    font-weight: 300;
+    z-index: 1;
+    font-size: 14px;
+}
+.thuonghieu:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 5px solid #ff000000;
+    background: transparent;
+    position: absolute;
+    border-top-color: gray;
+    top: 11px;
+    left: 80px;
+}
+.gia{
+    position: absolute;
+    z-index: 1;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 12px 120px;
+}
+.gia:after {content: "";width: 0px;height: 0px;border: 5px solid #ff000000;background: transparent;position: absolute;border-top-color: gray;top: 11px;left: 26px;}
+.gia2:after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 7px solid #ff000000;
+    background: transparent;
+    position: absolute;
+    border-bottom-color: #00000075;
+    top: 719px;
+    left: 348px;
+    
+    
+}
+.gia2{
+    border: 1px solid gray;
+     width:20%;
+     padding: 10px 10px;
+     margin-left: 90px;
+    opacity: 0;
+     transition: 0.3s;
+     visibility: hidden;
+     z-index: 10;
+     position: relative;
+     z-index: 3;
+     background: whitesmoke;
+ 
+ }
+.tinhnang{
+    position: absolute;
+    margin: 12px 190px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+    z-index: 1;
+}
+
+.tinhnang:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 5px solid #ff000000;
+    background: transparent;
+    position: absolute;
+    border-top-color: gray;
+    top: 11px;
+    left: 64px;
+    z-index: 1;
+}
+
+.sapxeptheo{
+    position: absolute;
+    margin: 12px 440px;
+    cursor: pointer;
+    font-weight: 300;
+    z-index: 1;
+    font-size: 14px;
+    
+}
+.sapxeptheo:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 5px solid #ff000000;
+    background: transparent;
+    position: absolute;
+    border-top-color: gray;
+    top: 11px;
+    left: 83px;
+}
+.chaygia2{
+    opacity: 1;
+    visibility: visible;
+}
+.gia2_1{
+    color: black;
+    cursor: pointer;
+    
+}
+.gia2_1:hover{
+    color: rgb(180, 11, 11);
+    text-decoration: none;
+}
+.gia3,.gia4{
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    background: gray;
+    margin-top: -150px;
+    z-index: 1;
+    border-radius: 4px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.4s;
+}
+.gia4{
+    margin-left: 128px ;
+}
+.hiengia3{
+    opacity: 1;
+    overflow: visible;
+}
+.gia3_2{
+    text-align: center;
+    color: whitesmoke;
+}
+/* Css cho phần sanr phẩm trống */
+.tentrong {
+    padding-right: 8px;
+    padding: 1px 16px;
+    background: rgb(253, 215, 2);
+    width: 75%;
+    border-radius: 22px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+    transition: 1s;
+    opacity: 1;
+    text-align: center;
+    font-weight: 500;
+    font-family: serif;
+    color: black;
+    text-decoration: none!important;
+    
+}
+
+.manden {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.507);
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+}
+
+.thongtin{
+    /* position: fixed; */
+    margin-top: 300px;
+    font-size: 15px;
+    text-align: center;
+    font-family: serif;
+    line-height: 7mm;
+    transition: 0.1s;
+    color: black;
+}
+.baotrum:hover .thongtin{
+    opacity: 0;
+    margin-top: 0px;
+}
+
+
+img.anh {
+    width: 90%;
+    margin-left: 17px!important;
+    position: absolute;
+    transition-delay: 1s;
+    transition: 1s;
+    /* transform-origin: left; */
+    /* margin: auto; */
+    box-sizing: border-box;
+}
+.col-sm-4{
+    width: 100%;
+    height: 560px;
+    
+}
+.baotrum {
+    width: 100%;
+    height:515px;
+    border: 1px solid gray;
+    position: relative;
+    /* padding: 5px; */
+    cursor: pointer;
+    /* margin: 40px; */
+    perspective: 900px;
+    /* margin-bottom: 100px; */
+   margin-top: 40px;
+   padding-top: 10px;
+    
+  
+}
+/* .baochu{
+    width: 100%;
+    margin-top: -230px;
+   
+    /* border: 1px solid gray; */
+    /* height: 165px;
+    opacity: 0;
+    transition-delay: 0.1;
+} */ 
+.dathang {
+    font-size: 16px;
+    width: 30%;
+    background: rgb(253, 215, 2);
+    color: black;
+    border-radius: 20px;
+    padding: 3px 10px;
+    margin-top: -30px;
+    text-align: center;
+    position: absolute;
+    margin-left: 113px;
+    z-index: -1;
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 0.5s;
+    font-family: 'Segoe UI';
+}
+
+.giatrong {
+    font-size: 19px;
+    color: red;
+    width: 50%;
+    padding: 3px 5px;
+    background: rgb(253, 215, 2);
+    border-radius: 33px;
+    margin-top: -60px;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    z-index: -1;
+    margin-left: 80px;
+    text-align: center;
+    transition-delay: 0.5s;
+   
+}
+.thanh2 {
+    height: 2px;
+    width: 43%;
+    background: black;
+    transform: rotate(deg);
+    /* margin-right: 0px; */
+    margin-left: 165px;
+    margin-top: 110px;
+    border-radius: 3px;
+    position: absolute;
+    z-index: -1;
+    transition-delay: 1s;
+    transition: 1s;
+    transform-origin: left;
+}
+
+.thanh1 {
+    height: 2px;
+    width: 43%;
+    background: black;
+    margin-left: 20px;
+    margin-top: 110px;
+    border-radius: 3px;
+    position: absolute;
+    z-index: -1;
+    transition-delay: 1s;
+    transition: 1s;
+    transform-origin: right;
+}
+.xemchitiet{
+    position: absolute;
+    margin-left: 120px;
+    opacity: 0;
+    z-index: -1;
+    transition: 1s;
+    transition-delay: 1s;
+    text-align: center;
+}
+
+.chop {
+    width: 41px;
+    height: 20px;
+    background: rgb(253, 215, 2);
+    position: absolute;
+    margin-left: 146px;
+    border-radius: 15px;
+    z-index: -1;
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 0.7s;
+
+}
+
+.baotrum:hover .manden{
+    opacity: 0;
+}
+.baotrum:hover .tentrong{
+    margin-top: 323px;
+    opacity: 1;
+    text-decoration: none!important;
+}
+.baotrum:hover .giatrong{
+    margin-top: -1px;
+    opacity: 1;
+}
+.baotrum:hover .dathang{
+    margin-top: 32px;
+    opacity: 1;
+    background: black;
+    color: rgb(253, 215, 2); 
+}
+.baotrum:hover .thanh1{
+    transform: rotate(35deg);
+}
+.baotrum:hover .thanh2{
+    transform: rotate(-35deg);
+}
+.baotrum:hover .xemchitiet{
+    margin-top: 122px;
+    opacity: 1;
+    color: blue;
+}
+.baotrum:hover .chop{
+    margin-top: 61px;
+    opacity: 1;
+    
+}
+.baotrum:hover .anh{
+    transform: scale(1.03);
+}
+a.loaitrong:hover {
+    color:rgb(253, 215, 2) ;
+}
+/* .baotrum:hover .dathang {
+    background:rgb(253, 215, 2);
+    color: black;
+} */
+
+/* CSS CHO PHẦN LỌC SP TỪ GIÁ */
+.allsanpham{
+    width: 100%;
+    height: 1750px;
+    position: relative;
+    margin-top: -70px;
+    /* padding: 20px; */
+    
+}
+.baosanpham1{
+    width: 100%;
+    height: 1700px;
+    position: absolute;
+    z-index: 2;
+   background: whitesmoke;    
+   transition: 1s;
+   visibility: visible;
+   
+}
+.matbaosp1{
+   opacity: 0;
+   visibility: hidden;
+
+}
+.baosanpham2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1200px;
+    background: whitesmoke;
+    z-index: 1;
+    /* transform: translateX(2000px); */
+    transition: 2s;
+    opacity: 0;
+    visibility: hidden;
+
+
+}
+.baosanpham3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1200px;
+    background: whitesmoke;
+    z-index: -1;
+    /* transform: translateX(2000px); */
+    transition: 2s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+.chaybaosp2{
+    opacity: 1;
+    visibility: visible;
+   
+
+   
+    
+}
+.chaybaosp3{
+    visibility: visible;
+    opacity: 1;
+    z-index: 2;
+ 
+}
+/* CSS cho footter */
+footer{
+    background: #1d1d1d;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+.footer1{
+    font-size: 14px;
+    
+}
+
+
+.khoifooter1{
+    margin: 10px;
+    float: left;
+}
+li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+.baofooter{
+    padding-top: 20px;
+}
+ul li a{
+    
+    color: whitesmoke;
+}
+ul li p{
+    font-size: 15px;
+}
+ .iconfb{
+    width: 80px!important;
+    height: 60px;
+    
+    
+}
+ .iconyt{
+    width: 52px;
+    height: 57px;
+    margin-top: 3px;
+}
+.footer11{
+    width: 200px;
+    display: block!important;
+}
+ul li a:hover{
+    color: rgb(253, 215, 2);
+    text-decoration: none;
+}
+/* css cho khối top và nut top */
+
+.top,.home,.phone{
+    color: black;
+    font-size: 24px;
+    margin-left: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+    
+}
+.phone{
+    animation: chuy 1s infinite;
+}
+@keyframes chuy{
+    0%{transform:rotate(0deg);}
+    20%{transform:rotate(-20deg);}
+    40%{transform:rotate(20deg);}
+    60%{transform:rotate(0deg);}
+    80%{transform:rotate(-20deg);}
+    100%{transform: rotate(0deg);}
+
+}
+.khoitop{
+    position: fixed;
+    left: 40px;
+    bottom: -3px;
+    width: 140px;
+    height: 40px;
+    background-color: rgb(253, 215, 2); 
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
+    z-index: 10;
+}
+.hienkhoitop{
+    opacity: 1;
+    visibility:visible;
+}
+/* css cho phần đăng kí tư vấn */
+.tuvan{
+    width: 270px;
+    height: 35px;
+    position: fixed;
+    z-index: 10;
+    right: 20px;
+    bottom: 0px;
+    background: rgb(253, 215, 2);
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+}
+.xoatuvan{
+    opacity: 0;
+    visibility: hidden;
+}
+._11{
+    background: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 258px;
+    margin-top: -5px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight: 500;
+}
+._10{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.bangtuvan{
+    width: 360px;
+    height: 400px;
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    background-color: yellow;
+    z-index: 10;
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    
+}
+.hienbangtuvan{
+    opacity: 1;
+    visibility: visible;
+    transform: rotateY(200px);
+}
+.baotuvan1{
+    width: 360px;
+    height: 140px;
+    background: rgb(253, 215, 2);
+
+
+}
+._12{
+    color: black;
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.iconclose{
+    color: black;
+    font-size: 18px;
+    margin-left: 320px;
+    margin-top: -20px;
+}
+.dienmau{
+    text-align: center;
+    margin-top: 30px;
+}
+.baotuvan2{
+    width: 360px;
+    height: 310px;
+    background-color: whitesmoke;
+    padding-top: 30px;
+   
+    
+}
+.baotuvan2_2{
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgba(128, 128, 128, 0.575);
+    margin-left: 30px;
+    border-radius: 4px;
+    
+
+
+}
+.dienten,.diendt{
+    width: 240px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.dangkituvan{
+    width: 240px;
+    height: 40px;
+    background-color:rgb(253, 215, 2) ;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    padding-top: 5px;
+    cursor: pointer;
+
+}
+.dangkituvan:hover{
+    background-color: rgb(134, 115, 3) ;
+}
+/* css phần 8 */
+.phan8{
+    width: 100%;
+    height: 150px;
+}
+.hang{
+    margin-top: 60px;
+}
+
+/* CSS cho phần 7 */
+.phan7{
+    width: 100%;
+    height: 240px;
+    background: #e6e7e8;
+    padding: 30px;
+
+}
+.chuto,.chuto_1{
+    font-size: 23px;
+    font-weight: 500;
+
+}
+.chunho_1{
+    margin-top: 10px;
+    
+}
+.baonut_1{
+    margin-top: 10px;
+}
+.nutemail,.nuthotline{
+    width: 60%;
+    height: 40px;
+    background: #231f20;
+    color: #fff;
+    text-align: center;
+    padding-top: 9px;
+    cursor: pointer;
+   
+}
+.nutemail{
+    margin-left: 40px;
+}
+.nutemail:hover,.nuthotline:hover{
+    background: rgb(253, 215, 2) ;
+}
+.nuthotline{
+    margin-left: -30px;
+    float: left;
+}
+/* css cho phan7 ben phai */
+.email{
+    margin-top: 15px;
+    height: 30px;
+}
+.dangky_1{
+    margin-left: 180px;
+    margin-top: -30px;
+    width: 70px;
+    height: 30px;
+    background: #231f20;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.dangky_1:after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 7px solid #ff000000;
+    background: transparent;
+    position: absolute;
+    border-right-color: #231f20;
+    top: 92px;
+    left: 185px;
+}
+.nutdongy{
+    margin-top: 20px;
+}
+/* Css reponsive  */
+@media(max-width: 480px)
+{
+    /* responsive cho đánh giá 2 */
+    .danhgia2{
+        margin-left: 105px;
+        margin-top: -22px;
+        visibility: hidden;
+        transition: 0.2s;
+        opacity: 0;
+        width: 200px;
+    }
+    .radanhgia2{
+        opacity: 1;
+        visibility: visible;
+    }
+    /* đóng css cho đánh giá */
+    .hang{
+        margin-top: 5px;
+        width: 80px;
+        height: 30px;
+    }
+    .phan8
+    {
+        width: 100%;
+        height: 230px;
+        background: fff;
+        padding-left: 40%;
+        margin-top: 3300px;
+    }   
+        
+    .baohang{
+        width: 90px;
+    }
+    /* CSS cho phần 7 ben trai */
+    .phan7{
+    width: 100%;
+    height: 340px;
+    background: #e6e7e8;
+    padding: 30px;
+
+    }
+    .chuto,.chuto_1{
+    font-size: 20px;
+    font-weight: 500;
+
+    }
+    .chunho_1{
+    margin-top: 10px;
+    
+    }
+    .baonut_1{
+    margin-top: 10px;
+    }
+    .nutemail,.nuthotline{
+    width: 40%;
+    height: 40px;
+    background: #231f20;
+    color: #fff;
+    text-align: center;
+    padding-top: 9px;
+    cursor: pointer;
+    
+    
+   
+    }
+    .nutemail{
+    margin-left: 20px;
+    }
+    .nutemail:hover,.nuthotline:hover{
+    background: rgb(253, 215, 2) ;
+    }
+    .nuthotline{
+    margin-left: 220px;
+    margin-top: -39px;
+    float: left;
+    }
+    .chuto_1{
+        margin-top: 10px;
+    }
+    .dangky_1:after{
+        top: 96px;
+    }
+    .chunho_1{
+        margin-top: 2px;
+    }
+    /* responsive cho bangdangki */
+    .khoitop{
+        width: 50px;
+        height: 150px;
+        border-radius: 40px;
+        margin-left: -50px;
+        margin-bottom: -17px;
+        padding-top: 5px;
+        padding-left: 2px;
+    }
+    .tuvan{
+        width: 200px;
+        margin-bottom: -3px;
+        
+    }
+    ._11{
+        margin-left: 188px;
+        margin-top: -10px;
+    }
+    .bangtuvan{
+        right: 0px;
+    }
+    .phan7{
+        margin-top: 10px;
+    }
+      /* responsive cho đánh giá */
+      .danhgia {
+        margin-top: -250px;
+    }
+    .chutrong{
+        margin-top: 20px;
+    }
+     /* responsive cho đánh giá */
+     .danhgia {
+        margin-top: -250px;
+    }
+    .baoall{
+        margin-top: -80px;
+    }
+    /* responsive cho tiềm kiếm */
+    .timtheo{
+        font-size: 15px;
+    }
+    .gia{
+        font-size: 12px;
+        margin-left: 85px;
+        margin-top: 10px;
+    }
+    .gia:after{
+        top: 9px;left: 20px;
+    }
+    .tinhnang{
+        font-size: 12px;
+        margin-left: 135px;
+        margin-top: 12px;
+    }
+    .tinhnang:after{
+        top: 9px;left: 53px;
+    }
+    .thuonghieu{
+        width: 50px;
+        height: 20px;
+        position: absolute;
+        margin: 12px 220px;
+        cursor: pointer;
+        font-weight: 100;
+        z-index: 1;
+        font-size: 10px;
+    }
+    .thuonghieu:after{
+        top: 9px;left: 40px;
+    }
+    .dangky_1:after{
+        top: 89px;
+    }
+    .sapxeptheo{
+        visibility: hidden;
+    }
+    .gia2{
+        border: 1px solid gray;
+         width:60%;
+         padding: 10px 10px;
+         margin-left: 90px;
+        opacity: 0;
+         transition: 0.3s;
+         visibility: hidden;
+         z-index: 10;
+         position: relative;
+         z-index: 3;
+         background: whitesmoke;
+     
+     }
+     .chaygia2{
+        opacity: 1;
+        visibility: visible;
+    }
+    /* responsive cho hiện sản phẩm */
+    .allsanpham{
+        margin-top: -50px;
+    }
+    .baotrum:hover .tentrong{
+        margin-top: 378px;
+        opacity: 1;
+        text-decoration: none!important;
+    }
+    .baotrum:hover .tentrong{
+        margin-top: 323px;
+        opacity: 1;
+        text-decoration: none!important;
+    }
+    img.anh {
+        width: 90%;
+        height: 320px;
+        margin-left: 17px!important;
+        position: absolute;
+        transition-delay: 1s;
+        transition: 1s;
+        /* transform-origin: left; */
+        /* margin: auto; */
+        box-sizing: border-box;
+    }
+    .giatrong {
+        font-size: 19px;
+        color: #c0392b;
+        width: 50%;
+        padding: 3px 5px;
+        background: rgb(253, 215, 2);
+        border-radius: 33px;
+        margin-top: -60px;
+        position: absolute;
+        opacity: 0;
+        transition: 1s;
+        z-index: -1;
+        margin-left: 85px;
+        text-align: center;
+        transition-delay: 0.5s;
+       
+    }
+    .dathang {
+        font-size: 16px;
+        width: 30%;
+        background: rgb(253, 215, 2);
+        color: black;
+        border-radius: 20px;
+        padding: 3px 10px;
+        margin-top: -30px;
+        text-align: center;
+        position: absolute;
+        margin-left: 125px;
+        z-index: -1;
+        opacity: 0;
+        transition: 1s;
+        transition-delay: 0.5s;
+        font-family: 'Segoe UI';
+    }
+    .thanh1 {
+        width: 39%;
+        margin-left: 35px;
+    }
+    .thanh2 {
+        height: 2px;
+        width: 39%;
+        /* margin-right: 0px; */
+        margin-left: 180px;
+    }
+    .chop{
+        margin-left: 160px;
+    }
+    .xemchitiet{
+        margin-left: 130px;
+    }
+    .baosanpham1{
+        height: 5050px;
+    }
+    /* .chutrong{
+        margin-top: 30px;
+    } */
+
+
+   
+}
+
+
+
+
+
+
+
+
+

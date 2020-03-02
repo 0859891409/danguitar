@@ -1,0 +1,683 @@
+*{padding: 0;
+margin: 0;}
+body{
+    width: 100%;
+    height: 750px;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: rgb(253, 215, 2);
+    height: 65px;
+}
+
+.logo{
+    width: 267px;
+    height: 67px;
+    padding-bottom: 5px;
+    padding-left: 92px;
+    padding-top: 5px;
+}
+.menu .navbar-nav{
+    margin-left: 200px;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+.nav-item{
+    margin-left:  50px;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+@media(max-width:570px)
+{
+    .logo{
+        width: 227px;
+        height: 67px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+    .navbar{
+        background-color:rgb(253, 215, 2);
+    }
+    .menu .nav-link{
+        background-color: rgb(253, 215, 2);
+        transition: 0.5s;
+        text-align: center;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+}
+
+
+.menu .nav-link:hover {
+   background: black;
+   border-radius: 5px;
+   transition: 0.2s;
+   color:  rgb(253, 215, 2)!important;
+}
+.all,.all1,.all2,.all3{
+    background-image: url(image/piano-keys-close-up.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+.all1{
+    background-image: url(image/close-up-of-piano-keys.jpg);
+  
+}
+.all2{
+    background-image: url(image/record-spinning.jpg);
+   
+}
+.all3{
+    background-image: url(image/headphones-in-an-orange-glow.jpg);
+
+}
+
+.phan1_1 .trangchu{
+    color: rgb(253, 215, 2);
+    text-decoration: none;
+}
+
+  
+
+.phan1_1 .icon1{
+    font-size: 13px;
+    padding-top: 7px;
+    padding-left: 2px;
+    color: rgb(253, 215, 2);
+}
+    
+    
+
+.phan1_1{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    background:transparent;
+    margin-top: 90px;
+    margin-left: 25px;
+    color: whitesmoke;
+    
+
+
+}
+.phan1_1 .trangchu1{
+   padding-left: 2px;
+   color: rgb(253, 215, 2);
+   text-decoration: none;
+}
+.title{
+    margin-top: 120px;
+    
+    text-align: center;
+    color: rgb(253, 215, 2);
+}
+.anh1{
+    width: 100%;
+    height:90%;
+    margin-top: 5px;
+}
+.phan2_2{
+    margin-top: 85px;
+    text-align: center;
+    background:  rgb(253, 215, 2);
+    padding: 20px ;
+    padding-bottom: 20px;
+    float: right;
+    border-radius: 3px;
+}
+.phan2_2_2{
+    margin-top: 85px;
+    text-align: center;
+    background:  rgb(253, 215, 2);
+    padding: 20px ;
+    padding-bottom: 20px;
+    float: right;
+    border-radius: 3px;
+}
+.muangay{
+    padding: 7px 16px;
+    background: black;
+    color: whitesmoke;
+    border: 2px solid black;
+    font-weight: 600;
+    border-radius: 3px;
+    
+}
+.muangay:hover{
+    background: transparent;
+    color: black;
+    text-decoration: none;
+}
+.gt{
+    margin-bottom: 40px;
+}
+.anh2{
+    width: 100%;
+    height:83%;
+    margin-top: 5px;
+}
+.anh3{
+
+    width: 100%;
+    height:100%;
+    margin-top: 5px;
+}
+.phan2_2_3{
+    margin-top: 160px;
+    text-align: center;
+    background:  rgb(253, 215, 2);
+    padding: 20px ;
+    padding-bottom: 20px;
+    float: right;
+    border-radius: 3px;
+}
+@media(max-width: 600px)
+{
+    .phan2_2_3{
+        margin-top: -170px;
+        text-align: center;
+        background:  rgb(253, 215, 2);
+        padding: 20px ;
+        padding-bottom: 20px;
+        float: right;
+        border-radius: 3px;}
+        .phan2_2{
+            margin-top: -160px;
+            text-align: center;
+            background:  rgb(253, 215, 2);
+            padding: 20px ;
+            padding-bottom: 20px;
+            float: right;
+            border-radius: 3px;
+        }
+        .phan2_2_2{
+            margin-top: -180px;
+            text-align: center;
+            background:  rgb(253, 215, 2);
+            padding: 20px ;
+            padding-bottom: 20px;
+            float: right;
+            border-radius: 3px;
+        }
+}
+.sanphamkhac{
+    padding-top: 80px;
+    text-align: center;
+    color: rgb(253, 215, 2);
+}
+/* .phan3{
+    background-image: url(image/piano-keys-close-up.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+} */
+.card-img-top{
+    width: 100%;
+    height: 50%;
+}
+
+.phan3_1:hover img{
+    transform: scale(1.1);
+}
+.phan3_1 {
+    transition: 0.5s;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: block;
+    margin: 10px;
+    
+}
+.phan3_1:hover .card-body{
+    transform: scale(1.01);
+    background: rgb(253, 215, 2);
+    transition: 0.5s;
+}
+.phan3_1 img{
+    overflow: hidden;
+    transition: 1s;
+}
+    
+
+.card-body{
+    background:  rgb(253, 215, 2) ;
+    text-align:left;
+}
+.card-title{
+    color: black;
+    
+}
+.phan3_1:hover .card-title{
+    color: black;
+}
+.giadan{
+    color:rgb(187, 15, 15);
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.muangay1{
+    padding: 2px 7px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 3px;
+    font-weight: 700;
+    
+    
+}
+.title1{
+    text-align: left;
+    padding-top: 6px;
+    font-weight: 500;
+}
+.muangay1:hover{
+    padding: 2px 7px;
+    border: 2px solid black;
+    color: rgb(253, 215, 2);
+    background: black;
+    text-decoration: none;
+}
+
+/* CSS cho footter */
+footer{
+    background: #1d1d1d;
+    color: #ffffff;
+    width: 100%;
+    height: 300px;
+}
+.footer1{
+    font-size: 14px;
+    
+}
+
+
+.khoifooter1{
+    margin: 10px;
+    float: left;
+}
+li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+.baofooter{
+    padding-top: 20px;
+}
+ul li a{
+    
+    color: whitesmoke;
+}
+ul li p{
+    font-size: 15px;
+}
+.iconfb{
+    width: 80px!important;
+    height: 60px;
+    
+    
+}
+ .iconyt{
+    width: 52px;
+    height: 57px;
+    margin-top: 3px;
+}
+.footer11{
+    width: 200px;
+    display: block!important;
+}
+ul li a:hover{
+    color: rgb(253, 215, 2);
+    text-decoration: none;
+}
+/* css cho khối top và nut top */
+
+.top,.home,.phone{
+    color: black;
+    font-size: 24px;
+    margin-left: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+    
+}
+.phone{
+    animation: chuy 1s infinite;
+}
+@keyframes chuy{
+    0%{transform:rotate(0deg);}
+    20%{transform:rotate(-20deg);}
+    40%{transform:rotate(20deg);}
+    60%{transform:rotate(0deg);}
+    80%{transform:rotate(-20deg);}
+    100%{transform: rotate(0deg);}
+
+}
+.khoitop{
+    position: fixed;
+    left: 40px;
+    bottom: -3px;
+    width: 170px;
+    height: 40px;
+    background-color: rgb(253, 215, 2); 
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
+    z-index: 10;
+}
+.hienkhoitop{
+    opacity: 1;
+    visibility:visible;
+}
+/* css cho phần đăng kí tư vấn */
+.tuvan{
+    width: 270px;
+    height: 35px;
+    position: fixed;
+    z-index: 10;
+    right: 20px;
+    bottom: 0px;
+    background: rgb(253, 215, 2);
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+}
+.xoatuvan{
+    opacity: 0;
+    visibility: hidden;
+}
+._11{
+    background: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 258px;
+    margin-top: -5px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight: 500;
+}
+._10{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.bangtuvan{
+    width: 360px;
+    height: 400px;
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    background-color: yellow;
+    z-index: 10;
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    
+}
+.hienbangtuvan{
+    opacity: 1;
+    visibility: visible;
+    transform: rotateY(200px);
+}
+.baotuvan1{
+    width: 360px;
+    height: 140px;
+    background: rgb(253, 215, 2);
+
+
+}
+._12{
+    color: black;
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.iconclose{
+        color: black;
+        font-size: 18px;
+        margin-left: 320px;
+        margin-top: -20px;
+        display: block!important;
+}
+.dienmau{
+    text-align: center;
+    margin-top: 30px;
+}
+.baotuvan2{
+    width: 360px;
+    height: 310px;
+    background-color: whitesmoke;
+    padding-top: 30px;
+   
+    
+}
+.baotuvan2_2{
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgba(128, 128, 128, 0.575);
+    margin-left: 30px;
+    border-radius: 4px;
+    
+
+
+}
+.dienten,.diendt{
+    width: 240px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.dangkituvan{
+    width: 240px;
+    height: 40px;
+    background-color:rgb(253, 215, 2) ;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    padding-top: 5px;
+    cursor: pointer;
+
+}
+.dangkituvan:hover{
+    background-color: rgb(134, 115, 3) ;
+}
+/* css phần 8 */
+.phan8{
+    width: 100%;
+    height: 150px;
+}
+.hang{
+    margin-top: 60px;
+}
+
+/* CSS cho phần 7 */
+.phan7{
+    width: 100%;
+    height: 240px;
+    background: #e6e7e8;
+    padding: 30px;
+
+}
+.chuto,.chuto_1{
+    font-size: 23px;
+    font-weight: 500;
+
+}
+.chunho_1{
+    margin-top: 10px;
+    
+}
+.baonut_1{
+    margin-top: 10px;
+}
+.nutemail,.nuthotline{
+    width: 60%;
+    height: 40px;
+    background: #231f20;
+    color: #fff;
+    text-align: center;
+    padding-top: 9px;
+    cursor: pointer;
+   
+}
+.nutemail{
+    margin-left: 40px;
+}
+.nutemail:hover,.nuthotline:hover{
+    background: rgb(253, 215, 2) ;
+}
+.nuthotline{
+    margin-left: -30px;
+    float: left;
+}
+/* css cho phan7 ben phai */
+.email{
+    margin-top: 15px;
+    height: 30px;
+}
+.dangky_1{
+    margin-left: 180px;
+    margin-top: -30px;
+    width: 70px;
+    height: 30px;
+    background: #231f20;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.dangky_1:after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 7px solid #ff000000;
+    background: transparent;
+    position: absolute;
+    border-right-color: #231f20;
+    top: 92px;
+    left: 183px;
+}
+.nutdongy{
+    margin-top: 20px;
+}
+/* Css reponsive  */
+@media(max-width: 570px)
+{
+    .phan8{
+        width: 100%;
+        height: 230px;
+        background: fff;
+        padding-left: 40%;
+        top: 1000px;
+    }
+    .hang{
+        margin-top: 5px;
+        width: 80px;
+        height: 30px;
+        
+       
+        
+    }
+    .baohang{
+        width: 90px;
+    }
+    /* CSS cho phần 7 ben trai */
+    .phan7{
+    width: 100%;
+    height: 340px;
+    background: #e6e7e8;
+    padding: 30px;
+
+    }
+    .chuto,.chuto_1{
+    font-size: 20px;
+    font-weight: 500;
+
+    }
+    .chunho_1{
+    margin-top: 10px;
+    
+    }
+    .baonut_1{
+    margin-top: 10px;
+    }
+    .nutemail,.nuthotline{
+    width: 40%;
+    height: 40px;
+    background: #231f20;
+    color: #fff;
+    text-align: center;
+    padding-top: 9px;
+    cursor: pointer;
+    
+    
+   
+    }
+    .nutemail{
+    margin-left: 20px;
+    }
+    .nutemail:hover,.nuthotline:hover{
+    background: rgb(253, 215, 2) ;
+    }
+    .nuthotline{
+    margin-left: 220px;
+    margin-top: -39px;
+    float: left;
+    }
+    .chuto_1{
+        margin-top: 10px;
+    }
+    .dangky_1:after{
+        top: 89px;
+    }
+    .chunho_1{
+        margin-top: 2px;
+    }
+    .khoitop{
+        width: 50px;
+        height: 150px;
+        border-radius: 40px;
+        margin-left: -50px;
+        margin-bottom: -17px;
+        padding-top: 5px;
+        padding-left: 2px;
+    }
+    .tuvan{
+        width: 200px;
+        margin-bottom: -3px;
+        
+    }
+    ._11{
+        margin-left: 188px;
+        margin-top: -10px;
+    }
+    .bangtuvan{
+        right: 0px;
+    }
+    footer{
+        height: 1000px;
+    }
+   
+}

@@ -1,0 +1,1053 @@
+*{margin: 0;padding: 0;}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: rgb(253, 215, 2);
+    height: 65px;
+}
+
+.logo{
+    width: 267px;
+    height: 67px;
+    padding-bottom: 5px;
+    padding-left: 92px;
+    padding-top: 5px;
+}
+.menu .navbar-nav{
+    margin-left: 200px;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+.nav-item{
+    margin-left:  50px;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+@media(max-width:480px)
+{
+    .logo{
+        width: 227px;
+        height: 67px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+    .navbar{
+        background-color:rgb(253, 215, 2);
+    }
+    .menu .nav-link{
+        background-color: rgb(253, 215, 2);
+        transition: 0.5s;
+        text-align: center;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+    /* .navbar-toggler-icon{
+        margin-right: 130px!important;
+    } */
+    button{
+        margin-right: 120px!important;
+        margin-bottom: 10px!important;
+    }
+}
+
+
+.menu .nav-link:hover {
+   background: black;
+   border-radius: 5px;
+   transition: 0.2s;
+   color:  rgb(253, 215, 2)!important;
+}
+/* đóng css menu */
+.banner{
+    background-image: url(image/banner1.png);
+    max-width: 100%;
+    height:400px ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 65px;
+}
+i.fas.fa-star {
+    margin-left: 6px;
+    padding-left: 2px;
+    font-size: 15px;
+    color: rgb(253, 215, 2) ;
+}
+
+i.fas.fa-chevron-right {
+    font-size: 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+a.danhgia1 {
+    margin: 4px;
+}
+
+.danhgia {
+    margin-top: 10px;
+}
+.danhgia2{
+    margin-left: 530px;
+    margin-top: -22px;
+    visibility: hidden;
+    transition: 0.2s;
+    opacity: 0;
+}
+.radanhgia2{
+    opacity: 1;
+    visibility: visible;
+
+}
+/* het banner and menu */
+.chudanguitar {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+h2.chudanguitar:after {content: "";margin-left:-175px;border: 6px solid rgb(253, 215, 2);right: -10;margin-left: 1;left: -40px;width: 0;height: 0;left: 8px;}
+.khoi {
+    width: 100%;
+    height: 50px;
+    background: black;
+    padding: 15px 24px;
+    color: whitesmoke;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.cacloaidan {
+    margin-top: 57px;
+    perspective: 1200px;
+    position: relative;
+    z-index: 10;
+}
+.khoi2:after {content: "";
+    height: 0;
+    border: 11px #ff000000 solid;
+    position: absolute;
+    content: "";
+    top: -24px;
+    right: 16px;
+    border-bottom-color:#95a5a6;z-index: 3;}
+
+a.linkdan {
+    color: black;
+}
+
+.khoi2 ul li {
+    margin: 7px;
+}
+
+.khoi2 {
+    border: 2px solid #95a5a6;
+    padding: 10px 25px;
+    margin-top: 5px;
+    visibility: hidden;
+    opacity: 0;
+    position: relative;
+    background-color: whitesmoke;
+    transform-origin: right;
+    z-index: 1;
+   
+}
+.lentren{
+    z-index: 10;
+}
+.ra{
+    opacity: 1;
+    visibility: visible;
+    animation: hieuung 0.4s forwards;
+}
+@keyframes hieuung{
+    from{transform: rotateY(-90deg);opacity: 0;}
+    to{transform: rotateY(0px);opacity: 1;}
+
+}
+a.muasp {
+    /* text-align: center; */
+    margin-left: 77px;
+    color: black;
+    padding: 5px 7px;
+    background-color: yellow;
+    /* margin: auto; */
+    margin-top: 4px;
+    position: absolute;
+    border-radius: 2px;
+}
+
+a.muasp:hover {
+    background: black;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.giasp {
+    text-align: center;
+    color: red;
+    font-weight: 500;
+}
+
+img.layeranh {
+    width: 100%;
+    height: 100%;
+}
+
+.matdau {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    border: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 66px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dongdan {
+    font-size: 13px;
+}
+.chuden{
+    color: black;
+}
+.khoivang{
+    background:  rgb(253, 215, 2);
+    color: black!important;
+}
+/* đóng css các loại đàn, banner and menu */
+.timkiem{
+    width: 100%;
+    height: 40px;
+    background-color: #afaaaa94;
+    position: relative;
+    border-radius: 2px;
+    
+    transition: 0.3s;
+   
+   
+}
+.all{
+    margin-top: -170px;
+    transition: 0.3s;
+    position: relative;
+    z-index: 5;
+}
+.chayall{
+    margin-top: 0px;
+}
+.timtheo{
+    position: absolute;
+    z-index: 1;
+    font-size: 19px;
+    padding: 7px 10px;
+    color: black;
+    font-weight: 400;
+}
+.gia{
+    position: absolute;
+    z-index: 1;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 12px 120px;
+}
+
+.gia:after {content: "";width: 0px;height: 0px;border: 5px solid #ff000000;background: transparent;position: absolute;border-top-color: gray;top: 11px;left: 26px;}
+.tinhnang{
+    position: absolute;
+    margin: 12px 190px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+    z-index: 1;
+}
+
+.tinhnang:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 5px solid #ff000000;
+    background: transparent;
+    position: absolute;
+    border-top-color: gray;
+    top: 11px;
+    left: 64px;
+    z-index: 1;
+}
+.thuonghieu{
+    position: absolute;
+    margin: 12px 300px;
+    cursor: pointer;
+    font-weight: 300;
+    z-index: 1;
+    font-size: 14px;
+}
+.thuonghieu:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 5px solid #ff000000;
+    background: transparent;
+    position: absolute;
+    border-top-color: gray;
+    top: 11px;
+    left: 80px;
+}
+.gia2{
+   border: 1px solid gray;
+    width:20%;
+    padding: 10px 10px;
+    margin-left: 90px;
+  
+   opacity: 0;
+    transition: 0.3s;
+    visibility: hidden;
+    z-index: 4;
+
+}
+.gia2_1{
+    color: black;
+}
+.chaygia2{
+    opacity: 1;
+    visibility: visible;
+}
+.gia2 ul li {
+    list-style: none;
+}
+.gia2:after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 7px solid #ff000000;
+    background: transparent;
+    position: absolute;
+    border-bottom-color: #00000075;
+    top: 743px;
+    left: 348px;
+    
+    
+}
+.chaygiaafter{
+    top: 932px;
+}
+.sapxeptheo{
+    position: absolute;
+    margin: 12px 440px;
+    cursor: pointer;
+    font-weight: 300;
+    z-index: 1;
+    font-size: 14px;
+    
+}
+.sapxeptheo:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 5px solid #ff000000;
+    background: transparent;
+    position: absolute;
+    border-top-color: gray;
+    top: 11px;
+    left: 83px;
+}
+/* đóng css tìm kiếm thông tin */
+a.muasp {
+    margin-left: 70px;
+    color: black;
+    padding: 5px 7px;
+    background-color: rgb(253, 215, 2);
+    margin-top: 4px;
+    position: absolute;
+    border-radius: 2px;
+    
+}
+a.muasp2 {
+    margin-left: 70px;
+    color: black;
+    padding: 5px 7px;
+    background-color: #f5f6fa;
+    margin-top: 4px;
+    position: absolute;
+    border-radius: 2px;
+    bottom: 22px;
+    border: 1px solid black;
+    transition: 0.2s;
+    font-weight: 500;
+}
+
+
+a.muasp2:hover {
+    background: rgb(253, 215, 2);;
+    color: black;
+    text-decoration: none;
+}
+.giasp {
+    text-align: center;
+    color: #e84118;
+    font-weight: 500;
+}
+img.layeranh {
+    width: 100%;
+    height: 100%;
+}
+.matdau {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    border: 1px solid rgb(85, 82, 82);
+    padding-top: 10px;
+    padding-bottom: 66px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ecf0f1;
+    transition: 0.3s;
+    transform: rotateY(0deg);
+    z-index: 3;
+    backface-visibility: hidden;
+    border-radius: 3px;
+}
+.sanpham1{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    perspective: 500px;
+    margin-top: 40px;
+    
+}
+.matsau{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(212, 139, 30);
+    padding: 10px;
+    z-index: 1;
+    transition: 0.3s;
+    transform: rotateY(-180deg);
+    border-radius: 3px;
+   
+}
+.chitietsp {
+    color: whitesmoke;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 87px;
+    transition: 0.3s;
+
+}
+
+h5.tensp {
+    color: whitesmoke;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.thanh1{
+    width: 80%;
+    height: 1px;
+    background: whitesmoke;
+    margin-top: 85px!important;
+    margin: auto;
+    transform: rotate(0);
+    transition: 0.3s;
+}
+.thanh2{
+    width: 80%;
+    height: 1px;
+    background: whitesmoke;
+    margin: auto;
+    transform: rotate(0);
+    transition: 0.3s;
+    
+}
+.baomatsau{
+    width: 80%;
+    height: 80%;
+    border: 2px solid whitesmoke;
+    margin: auto;
+    margin-top: 10px;
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+.tensp1{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    transition: 0.3s;
+}
+.chitietsp1{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+.matsau:hover .thanh1{
+    transform: rotate(35deg);
+}
+.matsau:hover .thanh2{
+    transform: rotate(-35deg);
+}
+.matsau:hover .baomatsau{
+    transform: scale(1);
+    
+}
+.matsau:hover .tensp{
+    margin-top: 50px;
+}
+.matsau:hover .chitietsp{
+    margin-top: 60px;
+}
+.sanpham1:hover .matdau{
+    transform: rotateY(180deg);
+
+}
+.sanpham1:hover .matsau{
+    transform: rotateY(0deg);
+}
+.sanpham{
+    margin-top: -137px;
+    transition: 0.3s;
+}
+.chaysp{
+    margin-top: 10px;
+}
+.loadthem{
+    float: right;
+    color: rgb(51, 160, 211);
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.4;
+    opacity: 1;
+    visibility: visible;
+    margin-top: 10px; 
+}
+.loadthemchay{
+    
+    opacity: 0;
+}
+.ndloadthem{
+   
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 20px;
+    transition: 0.4s;
+
+}
+.ndra{
+    visibility: visible;
+    opacity: 1;
+}
+/* CSS cho footter */
+footer{
+    background: #1d1d1d;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+.footer1{
+    font-size: 14px;
+    
+}
+
+
+.khoifooter1{
+    margin: 10px;
+    float: left;
+}
+li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+.baofooter{
+    padding-top: 20px;
+}
+ul li a{
+    
+    color: whitesmoke;
+}
+ul li p{
+    font-size: 15px;
+}
+ .iconfb{
+    width: 80px!important;
+    height: 60px;
+    
+    
+}
+ .iconyt{
+    width: 52px;
+    height: 57px;
+    margin-top: 3px;
+}
+.footer11{
+    width: 200px;
+    display: block!important;
+}
+ul li a:hover{
+    color: rgb(253, 215, 2);
+    text-decoration: none;
+}
+.baotatca{
+    margin-top: -800px;
+    transition: 1s;
+}
+.chaybaotatca{
+    margin-top: 0px;
+}
+/* css cho khối top và nut top */
+
+.top,.home,.phone{
+    color: black;
+    font-size: 24px;
+    margin-left: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+    
+}
+.phone{
+    animation: chuy 1s infinite;
+}
+@keyframes chuy{
+    0%{transform:rotate(0deg);}
+    20%{transform:rotate(-20deg);}
+    40%{transform:rotate(20deg);}
+    60%{transform:rotate(0deg);}
+    80%{transform:rotate(-20deg);}
+    100%{transform: rotate(0deg);}
+
+}
+.khoitop{
+    position: fixed;
+    left: 40px;
+    bottom: -3px;
+    width: 170px;
+    height: 40px;
+    background-color: rgb(253, 215, 2); 
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
+    z-index: 10;
+}
+.hienkhoitop{
+    opacity: 1;
+    visibility:visible;
+}
+/* css cho phần đăng kí tư vấn */
+.tuvan{
+    width: 270px;
+    height: 35px;
+    position: fixed;
+    z-index: 10;
+    right: 20px;
+    bottom: 0px;
+    background: rgb(253, 215, 2);
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+}
+.xoatuvan{
+    opacity: 0;
+    visibility: hidden;
+}
+._11{
+    background: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 258px;
+    margin-top: -5px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight: 500;
+}
+._10{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.bangtuvan{
+    width: 360px;
+    height: 400px;
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    background-color: yellow;
+    z-index: 10;
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    
+}
+.hienbangtuvan{
+    opacity: 1;
+    visibility: visible;
+    transform: rotateY(200px);
+}
+.baotuvan1{
+    width: 360px;
+    height: 140px;
+    background: rgb(253, 215, 2);
+
+
+}
+._12{
+    color: black;
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.iconclose{
+    color: black;
+    font-size: 18px;
+    margin-left: 320px;
+    margin-top: -20px;
+    display: block!important;
+}
+.dienmau{
+    text-align: center;
+    margin-top: 30px;
+}
+.baotuvan2{
+    width: 360px;
+    height: 310px;
+    background-color: whitesmoke;
+    padding-top: 30px;
+   
+    
+}
+.baotuvan2_2{
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgba(128, 128, 128, 0.575);
+    margin-left: 30px;
+    border-radius: 4px;
+    
+
+
+}
+.dienten,.diendt{
+    width: 240px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.dangkituvan{
+    width: 240px;
+    height: 40px;
+    background-color:rgb(253, 215, 2) ;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    padding-top: 5px;
+    cursor: pointer;
+
+}
+.dangkituvan:hover{
+    background-color: rgb(134, 115, 3) ;
+}
+/* css phần 8 */
+.phan8{
+    width: 100%;
+    height: 150px;
+}
+.hang{
+    margin-top: 60px;
+}
+
+/* CSS cho phần 7 */
+.phan7{
+    width: 100%;
+    height: 240px;
+    background: #e6e7e8;
+    padding: 30px;
+
+}
+.chuto,.chuto_1{
+    font-size: 23px;
+    font-weight: 500;
+
+}
+.chunho_1{
+    margin-top: 10px;
+    
+}
+.baonut_1{
+    margin-top: 10px;
+}
+.nutemail,.nuthotline{
+    width: 60%;
+    height: 40px;
+    background: #231f20;
+    color: #fff;
+    text-align: center;
+    padding-top: 9px;
+    cursor: pointer;
+   
+}
+.nutemail{
+    margin-left: 40px;
+}
+.nutemail:hover,.nuthotline:hover{
+    background: rgb(253, 215, 2) ;
+}
+.nuthotline{
+    margin-left: -30px;
+    float: left;
+}
+/* css cho phan7 ben phai */
+.email{
+    margin-top: 15px;
+    height: 30px;
+}
+.dangky_1{
+    margin-left: 180px;
+    margin-top: -30px;
+    width: 70px;
+    height: 30px;
+    background: #231f20;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.dangky_1:after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 7px solid #ff000000;
+    background: transparent;
+    position: absolute;
+    border-right-color: #231f20;
+    top: 92px;
+    left: 185px;
+}
+.nutdongy{
+    margin-top: 20px;
+}
+/* Css reponsive  */
+@media(max-width: 480px)
+{
+    /* responsive cho đánh giá 2 */
+    .danhgia2{
+        margin-left: 265px;
+        margin-top: -22px;
+        visibility: hidden;
+        transition: 0.2s;
+        opacity: 0;
+        width: 150px;
+    }
+    .radanhgia2{
+        opacity: 1;
+        visibility: visible;
+    }
+    /* đóng css cho đánh giá */
+    .phan8{
+        width: 100%;
+        height: 230px;
+        background: fff;
+        padding-left: 40%;
+    }
+    .hang{
+        margin-top: 5px;
+        width: 80px;
+        height: 30px;
+        
+       
+        
+    }
+    .baohang{
+        width: 90px;
+    }
+    .phan7{
+    width: 100%;
+    height: 340px;
+    background: #e6e7e8;
+    padding: 30px;
+
+    }
+    .chuto,.chuto_1{
+    font-size: 20px;
+    font-weight: 500;
+
+    }
+    .chunho_1{
+    margin-top: 10px;
+    
+    }
+    .baonut_1{
+    margin-top: 10px;
+    }
+    .nutemail,.nuthotline{
+    width: 40%;
+    height: 40px;
+    background: #231f20;
+    color: #fff;
+    text-align: center;
+    padding-top: 9px;
+    cursor: pointer;
+    
+    
+   
+    }
+    .nutemail{
+    margin-left: 20px;
+    }
+    .nutemail:hover,.nuthotline:hover{
+    background: rgb(253, 215, 2) ;
+    }
+    .nuthotline{
+    margin-left: 220px;
+    margin-top: -39px;
+    float: left;
+    }
+    .chuto_1{
+        margin-top: 10px;
+    }
+    .dangky_1:after{
+        top: 90px;
+    }
+    .chunho_1{
+        margin-top: 2px;
+    }
+    /* reponsive cho đánh giá */
+    .khoitop{
+        width: 50px;
+        height: 150px;
+        border-radius: 40px;
+        margin-left: -50px;
+        margin-bottom: -17px;
+        padding-top: 5px;
+        padding-left: 2px;
+    }
+    .tuvan{
+        width: 200px;
+        margin-bottom: -3px;
+        right: 110px;
+        
+    }
+    ._11{
+        margin-left: 188px;
+        margin-top: -10px;
+    }
+    .bangtuvan{
+        right: 110px;
+    }
+    /* responsive cho đánh giá */
+    .danhgia {
+        margin-top: -250px;
+    }
+    .baoall{
+        margin-top: -80px;
+    }
+    /* responsive cho tiềm kiếm */
+    .timtheo{
+        font-size: 15px;
+    }
+    .gia{
+        font-size: 12px;
+        margin-left: 85px;
+        margin-top: 10px;
+    }
+    .gia:after{
+        top: 9px;left: 20px;
+    }
+    .tinhnang{
+        font-size: 12px;
+        margin-left: 135px;
+        margin-top: 12px;
+    }
+    .tinhnang:after{
+        top: 9px;left: 53px;
+    }
+    .thuonghieu{
+        width: 50px;
+        height: 20px;
+        position: absolute;
+        margin: 12px 220px;
+        cursor: pointer;
+        font-weight: 100;
+        z-index: 1;
+        font-size: 10px;
+    }
+    .thuonghieu:after{
+        top: 9px;left: 40px;
+    }
+    .sapxeptheo{
+        visibility: hidden;
+    }
+    /* responsive cho sản phẩm */
+    .sanpham{
+        margin-top: -320px;
+        
+    }
+    a.muasp {
+        margin-left: 150px;
+    }
+    .thanh1{
+        width: 60%;
+        height: 1px;
+        background: whitesmoke;
+        margin-top: 85px!important;
+        margin: auto;
+        transform: rotate(0);
+        transition: 0.3s;
+    }
+    .thanh2{
+        width: 60%;
+        height: 1px;
+        background: whitesmoke;
+        margin: auto;
+        transform: rotate(0);
+        transition: 0.3s;
+        
+    }
+    a.muasp2{
+        margin-left: 144px;
+    }
+    .baotatca{
+        margin-top: -800px!important;
+        transition: 1s;
+    }
+    .chaybaotatca{
+        margin-top: 0px;
+    }
+    
+    
+
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
