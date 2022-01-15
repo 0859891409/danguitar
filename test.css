@@ -1,0 +1,37 @@
+.hinhtron{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    animation: tolen 1s infinite;
+    margin: 100px;
+
+}
+@keyframes tolen{
+    from{ transform: scale(1);}
+    to{ transform: scale(1.5);}
+}
+.baotym{
+    display: flex;
+    position: relative;
+    margin: 200px;
+    animation: tolen 1s infinite;
+}
+.trai,.phai{
+    width: 40px;
+    height: 80px;
+    background-color: red;
+    border-radius: 108px;
+
+}
+.trai{
+    transform:rotate(45deg) ;
+    margin-left: 30px;
+    position: absolute;
+    border-radius: 108px;
+}
+.phai{
+    transform:rotate(-45deg);
+    position: absolute;
+    border-radius: 108px;
+}
